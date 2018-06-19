@@ -1,0 +1,6 @@
+*.log
+.vagrant
+node_modules
+backend/build
+frontend/dist
+*.swp

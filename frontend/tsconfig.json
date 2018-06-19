@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true, // allow default import from modules with no default export
+    "typeRoots": [
+      "node_modules/@types", 
+      "custom_typings"
+    ],
+    "lib": ["es2015", "dom"]
+  }
+}

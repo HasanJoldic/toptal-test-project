@@ -1,0 +1,12 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+      "member-access": false, // each method must be public/protected/private
+      "ordered-imports": false
+    },
+    "rulesDirectory": []
+}

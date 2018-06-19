@@ -1,0 +1,10 @@
+@import "../assets/style/import";
+
+.datetime {
+
+  &__input {
+    width: 12rem;
+    display: inline-block;
+    box-sizing: content-box;
+  }
+}

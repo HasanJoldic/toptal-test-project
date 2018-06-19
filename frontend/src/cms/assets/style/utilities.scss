@@ -1,0 +1,23 @@
+@import "import";
+
+.u-center-text {
+  text-align: center;
+}
+
+.u-highlight-hover {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.u-clickable-text {
+  color: $color-primary-light;
+  font-size: 120%;
+}
+
+.u-disabled {
+  background-color: $color-grey-dark-1 !important;
+  cursor: not-allowed;
+}

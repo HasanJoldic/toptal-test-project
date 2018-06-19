@@ -1,0 +1,37 @@
+@import "./assets/style/import";
+
+.main {
+  font-size: $default-font-size;
+}
+
+.rw-widget-container {
+  
+}
+
+.form__group .form__input {
+  padding: 1rem 2rem; 
+}
+
+.form__group .form__input,
+.rw-widget-container {
+  border: 1px solid $color-grey-dark-1 !important;
+  border-bottom: 3px solid $color-grey-dark-1 !important;
+  border-radius: 2px !important;
+  font-size: $default-font-size;
+  font-family: inherit;
+  color: inherit;
+  height: 5rem !important;
+
+  &:focus {
+    box-shadow: 0 1rem 2rem rgba($color-black, .1) !important;
+    border-bottom: 3px solid $color-primary !important;
+  }
+
+  &:focus:invalid {
+    border-bottom: 3px solid $color-red !important;
+  }
+}
+
+.rw-widget-container {
+  text-align: center;
+}

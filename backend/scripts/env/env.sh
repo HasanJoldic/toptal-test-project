@@ -1,0 +1,6 @@
+export NODE_ENV=production
+
+export SQL_USER=toptal_user_production
+export SQL_HOST=localhost
+export SQL_PASSWORD=toptal_pw_production
+export SQL_DATABASE=toptal_db_production

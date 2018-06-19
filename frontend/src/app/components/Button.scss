@@ -1,0 +1,20 @@
+@import "../assets/style/import";
+
+.btn {
+  color: $color-white;
+  // display: inline-block;
+  border-radius: 3px;
+  padding: 1rem 3rem;
+  // width: 100%;
+  // box-shadow: inherit;
+}
+
+.btn-container {
+  display: inline-block;
+}
+
+.btn-default {
+  background-color: $color-primary;
+  border-radius: 3px;
+  display: inline-block;
+}

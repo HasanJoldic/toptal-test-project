@@ -1,0 +1,17 @@
+@import "../../assets/style/import";
+
+.user-item {
+  display: flex; justify-content: space-around; align-items: center;
+  background-color: $color-primary-light;
+  padding: 2rem;
+  color: $color-white;
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  & > * {
+    flex: 1;
+    padding-left: 5rem;
+  }
+}

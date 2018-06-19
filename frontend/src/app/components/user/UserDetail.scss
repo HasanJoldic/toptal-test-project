@@ -1,0 +1,51 @@
+@import "../../assets/style/import";
+
+.user-detail {
+  background-color: $color-white;
+  font-size: $default-font-size;
+  padding: 6rem;
+  position: relative;
+  width: 100%;
+
+  .submit {
+    background-color: $color-primary;
+  }
+
+  .delete {
+    background-color: $color-red;
+  }
+
+  .btn {
+    width: 15rem;
+  }
+
+  .delete * {
+    background-color: $color-red !important;
+  }
+
+  .form__group {
+    display: flex;
+
+  }
+
+  .form__input {
+    width: 40rem;
+  }
+
+  &__row {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  &__status {
+    margin-right: 5rem;
+  }
+
+  &__status--success {
+    color: $color-green;
+  }
+
+  &__status--error {
+    color: $color-red;
+  }
+}

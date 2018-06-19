@@ -1,0 +1,45 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@mixin centerAbsolute {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+
+@mixin hasHover {
+  @media only screen and (hover: hover) {
+    @content;
+  }
+}
+
+
+/**
+  *$breakpoin values
+  *
+  * phone 600px
+  * tab-port 900px
+  * tab-land 1200px
+  * big-desktop 1800px
+*/
+
+@mixin respond($breakpont) {
+  @if $breakpont == phone {
+    @media only screen and (max-width: 37.5em) { @content; }
+  }
+
+  @if $breakpont == tab-port {
+    @media only screen and (max-width: 56.25em) { @content; }
+  }
+
+  @if $breakpont == tab-land {
+    @media only screen and (max-width: 75em) { @content; }
+  }
+
+  @if $breakpont == big-desktop {
+    @media only screen and (min-width: 112.5em) { @content; }
+  }
+}

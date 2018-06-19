@@ -1,0 +1,50 @@
+@import "../../assets/style/import";
+
+.meal-detail {
+  background-color: $color-white;
+  font-size: $default-font-size;
+  padding: 6rem;
+  position: relative;
+
+  .submit {
+    background-color: $color-primary;
+  }
+
+  .delete {
+    background-color: $color-red;
+  }
+
+
+  .rw-widget-container {
+    border-radius: 0;
+    padding: .5rem .5rem;
+
+    .rw-select {
+      margin-right: .5rem;
+      color: $color-grey-dark-1 !important;
+    }
+
+  }
+
+  .form__group {
+    display: flex;
+
+  }
+
+  &__row {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  &__status {
+    margin-right: 5rem;
+  }
+
+  &__status--success {
+    color: $color-green;
+  }
+
+  &__status--error {
+    color: $color-red;
+  }
+}

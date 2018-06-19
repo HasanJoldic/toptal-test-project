@@ -1,0 +1,21 @@
+@import "../../assets/style/import";
+
+.meal-item {
+  display: flex; justify-content: space-around; align-items: center;
+  background-color: $color-green;
+  padding: 2rem;
+  color: $color-white;
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  & > * {
+    flex: 1;
+    padding-left: 5rem;
+  }
+}
+
+.meal-item-over-limit {
+  background-color: $color-red;
+}

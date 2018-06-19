@@ -1,0 +1,21 @@
+@import "../../assets/style/import";
+
+.user-list {
+
+  &__filter-container {
+    display: flex; justify-content: space-between; align-items: center;
+  }
+
+  &__filter {
+    display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;
+  }
+
+  &__list {
+    margin-top: 5rem;
+    color: $color-white;
+  }
+
+  .add-user-button {
+    margin-bottom: 5rem;
+  }
+}
